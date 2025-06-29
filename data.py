@@ -3,8 +3,8 @@ import pandas as pd
 
 class StockDatabase():
     """
-    Historical Daily Time Series Stock Market Data (OHLCV) of NYSE, NYSE American, and
-    NASDAQ listed sercurities from 2010-01-01 to 2024-12-31.
+    Historical Daily Time Series Stock Market Data (OHLCV and Market Capitalization) of NYSE, NYSE American, and
+    NASDAQ listed securities from 2010-01-01 to 2024-12-31.
 
     Methods:
     search_PERMNO(ticker: str, date: str) -> int:
